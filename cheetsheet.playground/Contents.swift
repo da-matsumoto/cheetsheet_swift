@@ -9,3 +9,16 @@ var j: Int = Int(a * 1.25)
 let n = 8
 let str = "\(n)の2乗は\(n*n)です。"
 
+//使えないfor文
+/*for var i = 0; i < 100; i++ {
+  print(i)
+}*/
+
+//使えるfor文
+for i in 0 ..< 100 {
+  print(i)
+}
+
+
+
+
