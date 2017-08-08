@@ -19,6 +19,10 @@ for i in 0 ..< 100 {
   print(i)
 }
 
+//文字数を調べる
+var characount1 = "かきくけこ"
+print(characount1.characters.count)
+
 
 
 
